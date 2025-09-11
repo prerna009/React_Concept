@@ -1,12 +1,15 @@
-import './App.css'
+import './App.css';
+import ProductList from './components/products/ProductList';
+import UserList from './components/users/UserList';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Welcome, React Project</h1>
-      <p>This is my first react project.</p>
+    <div style={{ padding: '20px' }}>
+      <h1>Mini React Project</h1>
+      <UserList/>
+      <ProductList/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
