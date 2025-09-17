@@ -12,6 +12,7 @@ import ExpensiveCalc from './components/hooks/Memo'
 import ReducerCounter from './components/hooks/Reducer'
 import LoginControl from './components/hooks/ConditionalRendering'
 import TwoWayBinding from './components/hooks/TwoWayBinding'
+import MultipleHooks from './components/hooks/MultipleHooks'
 
 function App() {
   const [num, setNum] = useState(1);
@@ -55,6 +56,9 @@ function App() {
 
       <h2>Two Way Binding Example</h2>
       <TwoWayBinding/>
+
+      <h2>Multiple Hooks Using Example</h2>
+      <MultipleHooks/>
     </div>
   )
 }
