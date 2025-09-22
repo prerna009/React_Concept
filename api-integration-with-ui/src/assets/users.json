@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "email": "Sincere@april.biz",
+      "address": {
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "address": {
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "email": "Nathan@yesenia.net",
+      "address": {
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "email": "Julianne.OConner@kory.org",
+      "address": {
+        "city": "South Elvis",
+        "zipcode": "53919-4257"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "email": "Lucio_Hettinger@annie.ca",
+      "address": {
+        "city": "Roscoeview",
+        "zipcode": "33263"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "email": "Karley_Dach@jasper.info",
+      "address": {
+        "city": "South Christy",
+        "zipcode": "23505-1337"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "email": "Telly.Hoeger@billy.biz",
+      "address": {
+        "city": "Howemouth",
+        "zipcode": "58804-1099"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "email": "Sherwood@rosamond.me",
+      "address": {
+        "city": "Aliyaview",
+        "zipcode": "45169"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "email": "Chaim_McDermott@dana.io",
+      "address": {
+        "city": "Bartholomebury",
+        "zipcode": "76495-3109"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "email": "Rey.Padberg@karina.biz",
+      "address": {
+        "city": "Lebsackbury",
+        "zipcode": "31428-2261"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Prerna Gupta",
+      "email": "prerna@gmail.com",
+      "address": {
+        "city": "Mumbai",
+        "zipcode": "40000-2261"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Sumeet Gupta",
+      "email": "sumeet@gmail.com",
+      "address": {
+        "city": "Chennai",
+        "zipcode": "31888-2261"
+      }
+    }
+  ]
+}
