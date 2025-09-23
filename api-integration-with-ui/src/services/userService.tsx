@@ -36,7 +36,7 @@ export async function updateUser(userId: number, user: any): Promise<any[]> {
     return res.data;
 }
 
-export async function getUserById(userId: number): Promise<any[]> {
+export async function getUserById(userId: number): Promise<any> {
     const res = await axios.get(`${apiUrl}/${userId}`);
     return res.data;
 }

@@ -1,21 +1,13 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "address": {
-        "city": "Gwenborough",
-        "zipcode": "92998-3874"
-      }
-    },
-    {
       "id": 2,
       "name": "Ervin Howell",
       "email": "Shanna@melissa.tv",
       "address": {
         "city": "Wisokyburgh",
-        "zipcode": "90566-7771"
+        "zipcode": "90566-7771",
+        "street": "Kasheli"
       }
     },
     {
@@ -24,7 +16,8 @@
       "email": "Nathan@yesenia.net",
       "address": {
         "city": "McKenziehaven",
-        "zipcode": "59590-4157"
+        "zipcode": "59590-4157",
+        "street": "Kennhgdhg"
       }
     },
     {
@@ -43,15 +36,6 @@
       "address": {
         "city": "Roscoeview",
         "zipcode": "33263"
-      }
-    },
-    {
-      "id": 6,
-      "name": "Mrs. Dennis Schulist",
-      "email": "Karley_Dach@jasper.info",
-      "address": {
-        "city": "South Christy",
-        "zipcode": "23505-1337"
       }
     },
     {
@@ -107,6 +91,26 @@
         "city": "Chennai",
         "zipcode": "31888-2261"
       }
+    },
+    {
+      "name": "Sumeet Gupta",
+      "email": "sandy@gmail.com",
+      "address": {
+        "city": "Indore",
+        "street": "hjsgwe",
+        "zipcode": "4022333"
+      },
+      "id": 13
+    },
+    {
+      "name": "Sandhaya Gupta",
+      "email": "sandy555@gmail.com",
+      "address": {
+        "city": "Mumbai",
+        "street": "Road 21",
+        "zipcode": "400266"
+      },
+      "id": 14
     }
   ]
 }
