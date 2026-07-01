@@ -1,3 +1,4 @@
+import Accordion from './Accordion'
 import './App.css'
 import ControlledForm from './components/ControlledForm'
 import Calculator from './components/LiftingState'
@@ -9,6 +10,7 @@ import SetNameField from './components/SetName'
 import SimpleForm from './components/SimpleForm'
 import UncontrolledForm from './components/UncontrolledForm'
 import ValidatedForm from './components/ValidatedForm'
+import MultipleAccordion from './MultipleAccordion'
 
 function App() {
   return (
@@ -42,6 +44,10 @@ function App() {
 
       <h3>Sibling State Sharing Example</h3>
       <Parent/>
+
+      <Accordion />
+
+      <MultipleAccordion />
     </div>
   )
 }
