@@ -43,7 +43,7 @@ function List() {
                 )}
             </div>
 
-            <h3>Selected Item:</h3>
+            <h4>Selected Item:</h4>
             <div>
                 {newArr.map((item) => (
                     <div key={item.id}>{item.name}</div>

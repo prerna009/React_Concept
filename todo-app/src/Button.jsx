@@ -21,6 +21,7 @@ export default function ButtonExample() {
 
     return (
         <div>
+            <h2>Web Worker Button Example</h2>
             <button onClick={calculateSum}>Calculate Sum</button>
             <button onClick={changeBackground} style={{ backgroundColor: backgroundColor }}>Change BackgroundColor</button>
         </div>

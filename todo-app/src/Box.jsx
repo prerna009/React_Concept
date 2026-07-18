@@ -61,30 +61,33 @@ export default function Box() {
   }, [TOTAL, startAnimation]);
 
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: `repeat(${COLUMNS}, 60px)`,
-        gap: 10,
-      }}
-    >
-      {boxes.map((box) => (
-        <div
-          key={box.id}
-          onClick={() => handleSelect(box)}
-          style={{
-            width: 50,
-            height: 50,
-            border: box.disabled ? 'none' : '2px solid black',
-            backgroundColor: box.disabled
-              ? 'transparent'
-              : box.selected
-                ? 'blue'
-                : 'white',
-            cursor: box.disabled ? 'default' : 'pointer',
-          }}
-        />
-      ))}
+    <div>
+      <h2>Reverse Selected Box Example</h2>
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: `repeat(${COLUMNS}, 60px)`,
+          gap: 10,
+        }}
+      >
+        {boxes.map((box) => (
+          <div
+            key={box.id}
+            onClick={() => handleSelect(box)}
+            style={{
+              width: 50,
+              height: 50,
+              border: box.disabled ? 'none' : '2px solid black',
+              backgroundColor: box.disabled
+                ? 'transparent'
+                : box.selected
+                  ? 'blue'
+                  : 'white',
+              cursor: box.disabled ? 'default' : 'pointer',
+            }}
+          />
+        ))}
+      </div>
     </div>
   );
 }

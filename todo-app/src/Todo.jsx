@@ -46,7 +46,7 @@ function Todo() {
   };
 
   return (
-    <div style={{ maxWidth: "500px", margin: "50px auto", textAlign: "center" }}>
+    <div>
       <h2>Todo List</h2>
 
       <div>
